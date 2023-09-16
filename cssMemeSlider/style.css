@@ -185,3 +185,25 @@ img {
     transform: translate(-150rem);
     transition: 0.5s;
 }
+
+@media (max-width: 1000px) {
+    #meme-footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+    
+    #meme-text-window {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    #meme-pagination {
+        order: 1;
+    }
+
+    #meme-text-window {
+        order: 2;
+    }
+}
